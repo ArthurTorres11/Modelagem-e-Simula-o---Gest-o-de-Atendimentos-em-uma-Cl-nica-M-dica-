@@ -1,27 +1,26 @@
-Simulação de Gestão de Atendimentos – Clínica Vida Saudável
-Este projeto é um modelo de simulação de eventos discretos para dimensionamento e análise operacional de clínicas médicas, com foco em gestão de consultórios, dinâmica de filas, priorização de atendimentos e avaliação de alternativas tecnológicas.
+Simulação Clínica – Gestão de Atendimentos (Clínica Vida Saudável)
+Este projeto modela, simula e analisa o atendimento em clínicas médicas usando eventos discretos para tomada de decisão na gestão de consultórios, priorização, fila única e inovação tecnológica.
 
 Funcionalidades
-Modelagem do fluxo de atendimento de pacientes (chegada, triagem, fila, atendimento)
+Simulação do fluxo completo de pacientes (chegada, triagem, fila, atendimento)
 
-Experimentação de diferentes cenários:
+Análise de múltiplos cenários operacionais:
 
-Números variados de consultórios
+Quantidade variada de consultórios
 
-Algoritmo FIFO vs. priorização de urgentes
+FIFO x priorização de urgentes
 
-Fila única vs. múltiplas filas
+Fila única ou múltiplas filas por médico
 
-Novo sistema de triagem eletrônico
+Impacto do novo sistema eletrônico de triagem
 
-Variação de demanda ao longo do dia
+Ajuste dinâmico por nível de demanda
 
-Cálculo automático de métricas: tempo médio de espera, fila máxima, throughput, etc.
+Geração de tabelas e relatórios automáticos (.tsv, .html)
 
-Relatórios automáticos em HTML/TSV para análise posterior
+Scripts para estatísticas e visualização de resultados
 
-Estrutura do Projeto
-text
+
 src/
 └── com/
     └── clinica/
@@ -40,13 +39,5 @@ src/
             ├── ClinicaExperiment.java
             ├── RelatorioTempoEspera.java
             └── RelatorioComparativoNovoSistema.java
-Cada pacote tem uma responsabilidade clara: entidades, regras de processo, configuração, utilidades de relatório e scripts de experimentação/análise.
 
 
-Licença
-MIT
-
-Autor
-Arthur Torres - RA: 740410
-Flavio Farias - RA: 741799
- — [link do seu perfil]
